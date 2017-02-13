@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/white">
+
+    <WebView
+        android:id="@+id/list_search_image_url"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        tools:text="Image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_search_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/list_search_image_url"
+            android:textStyle="bold"
+            android:padding="2dp"
+            tools:text="Business Name"/>
+
+        <TextView
+            android:id="@+id/list_serach_address_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/list_search_image_url"
+            android:layout_below="@+id/list_search_name_text_view"
+            android:padding="2dp"
+            tools:text="Address"/>
+
+        <WebView
+            android:id="@+id/list_serach_rating_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/list_search_image_url"
+            android:layout_below="@id/list_serach_address_text_view"
+            android:padding="2dp"
+            tools:text="Rating"/>
+
+    </LinearLayout>
+
+</LinearLayout>

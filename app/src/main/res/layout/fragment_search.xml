@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relative_layout_search"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="50sp">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/location_text"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:background="#5858FA"
+                />
+
+            <ImageButton
+                android:id="@+id/menu_item_location"
+                android:title="@string/location"
+                android:background="@drawable/ic_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="13dp"
+                />
+
+            <ImageButton
+                android:id="@+id/menu_item_sort"
+                android:title="Sort"
+                android:background="@drawable/ic_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_toLeftOf="@+id/menu_item_location"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- Side navigation drawer UI -->
+    <ListView
+        android:id="@+id/navList_search"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffeeeeee"/>
+
+</android.support.v4.widget.DrawerLayout>

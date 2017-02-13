@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RestaurantFinder</string>
+    <string name="search">Search</string>
+    <string name="location">Location</string>
+    <string name="search_button">Search Button</string>
+    <string name="google_api_key">AIzaSyCXIyM1iS8frmg7jIBXE2ucpgZC_Hkb9BU</string>
+    <string name="google_app_id">820184639655</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="consumer_key">M0dU_dURPVB8L-sWrDUm4A</string>
+    <string name="consumer_secret">MWml3z5qCjDM72qFD9tEVfDksbw</string>
+    <string name="token">W_UNyF7jPbZq_G8SCHT_6o3lOhWx-1Wl</string>
+    <string name="token_secret">6osw87tkuEtNXC9kTSc6LCQxeUI</string>
+</resources>
